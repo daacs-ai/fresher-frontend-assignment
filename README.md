@@ -191,9 +191,9 @@ When we review your submission, we'll focus on:
 
 ## 🎥 Submission Instructions
 
-You can submit either one of the following:
+You can submit by doing the following:
 
-### Option 1: GitHub Repository
+### GitHub Repository
 
 - Push your code to a public GitHub repo
 - Include a short explanation in the README:
@@ -201,7 +201,7 @@ You can submit either one of the following:
   - Assumptions
   - Improvements you'd make
 
-### Option 2: Loom Video (Preferred)
+### Loom Video
 
 - 5–8 minutes max
 - Explain:
@@ -222,7 +222,7 @@ You can submit either one of the following:
 
 ## ⏳ Time Expectation
 
-**2–4 hours max**
+**5–6 hours max**
 
 Please don't spend days on this.
 
