@@ -1,6 +1,6 @@
 # 🚀 Frontend Engineer (0–1 / Fresher) — Hiring Assignment
 
-## Welcome! 👋
+Welcome! 👋
 
 This repository contains the frontend hiring assignment for 0–1 year / fresher frontend engineers at DataActions.
 
@@ -8,26 +8,21 @@ This repository contains the frontend hiring assignment for 0–1 year / fresher
 
 ## 🌍 About DataActions
 
-DataActions is a venture-backed, Singapore-headquartered company building next-generation Decision Intelligence platforms for B2B2C SaaS companies.
+DataActions is a venture-backed company headquartered in Singapore, building next-generation Decision Intelligence powered by ontology-driven modelling and Causal AI.
 
-We are building a semantic + AI-powered layer that helps users and agents move from **insight → decision → action**, instead of just looking at dashboards.
+As markets shift toward AI-native operations, competitive advantage no longer comes from static analytics — it comes from the ability to experiment, learn, and decide faster.
 
-As a frontend engineer, you'll work close to:
-
-- Product thinking
-- UX decisions
-- Real users
-- Founding team
+DataActions enables that decision and experimentation velocity for supply chain and retail organizations, helping teams move from insight → action with confidence.
 
 ## 🎯 Purpose of This Assignment
 
-### We are **not** testing:
+### We are not testing:
 
 - DSA
 - Tricky JavaScript questions
 - Pixel-perfect UI
 
-### We **are** testing:
+### We are testing:
 
 - Your problem-solving approach
 - How you break down an unclear problem
@@ -41,22 +36,75 @@ You'll build a simple **Insight Widget** — a small frontend component that vis
 
 Think of it as a mini dashboard card.
 
-## 📌 Functional Requirements
+## 📌 Core Functional Requirements (Mandatory)
 
 Your app/component should:
 
 - Allow the user to enter:
-  - **Metric name** (text input)
-  - **Time range** → last N days
+  - Metric name (text input)
+  - Time range → last N days
 - Display data for the selected metric and time range
 - Data can be mocked / hardcoded
-  - No backend required
+- No backend required
 - Visualize the data in any one form:
   - Table
   - Chart
   - List
-  - Or any creative but simple format
+  - Or any simple creative format
 - Update the view when inputs change
+
+### 🔹 Task 1: Insight State Handling
+
+Extend your Insight Widget to handle real-world UI states.
+
+**Requirements:**
+
+- Show a loading state when data is being prepared
+- Show an empty state when no data is available
+- Show an error state (can be simulated)
+
+**What we're evaluating:**
+
+- How you think about realistic UI scenarios
+- State management clarity
+- UX awareness
+
+### 🔹 Task 2: Metric Switcher
+
+Add a dropdown or selector to switch between multiple metrics.
+
+**Example metrics:**
+
+- Revenue
+- Orders
+- Users
+
+Data can still be mocked.
+
+**What we're evaluating:**
+
+- Component reusability
+- Clean data flow
+- Ability to extend beyond a single use case
+
+### 🔹 Task 3: Make It Reusable
+
+Refactor your widget so it can be reused with different inputs.
+
+**Example:**
+
+```jsx
+<InsightWidget
+  metric="Revenue"
+  timeRange={30}
+/>
+```
+
+**What we're evaluating:**
+
+- How you design component APIs
+- Separation of logic and UI
+- Forward-thinking mindset
 
 ## 🛠️ Tech Guidelines
 
@@ -110,9 +158,9 @@ When we review your submission, we'll focus on:
 
 ## 🎥 Submission Instructions
 
-You can submit either one of the following:
+You can submit by doing the following:
 
-### Option 1: GitHub Repository
+### GitHub Repository
 
 - Push your code to a public GitHub repo
 - Include a short explanation in the README:
@@ -120,9 +168,9 @@ You can submit either one of the following:
   - Assumptions
   - Improvements you'd make
 
-### Option 2: Loom Video (Preferred)
+### Loom Video
 
-- 5–8 minutes max
+- 5 minutes max
 - Explain:
   - Your thought process
   - Code walkthrough
@@ -139,17 +187,9 @@ You can submit either one of the following:
 
 **This is not a trick assignment.**
 
-## 🧪 Bonus (Optional)
-
-If you want to go a bit extra (not required):
-
-- Add basic input validation
-- Make the widget reusable
-- Add simple UX improvements
-
 ## ⏳ Time Expectation
 
-**2–4 hours**
+**5–6 hours**
 
 Please don't spend days on this.
 
