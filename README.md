@@ -85,10 +85,6 @@ Your app/component should:
   - Or any simple creative format
 - Update the view when inputs change
 
-## 🧪 Additional Tasks (Choose Any 1–2)
-
-These tasks are optional but strongly encouraged. Pick what interests you — we care more about quality of thinking than completing everything.
-
 ### 🔹 Task 1: Insight State Handling
 
 Extend your Insight Widget to handle real-world UI states.
