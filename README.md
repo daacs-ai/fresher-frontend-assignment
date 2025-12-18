@@ -1,18 +1,50 @@
 # 🚀 Frontend Engineer (0–1 / Fresher) — Hiring Assignment
 
+## **We're Hiring: Junior Frontend Engineer (0–1 Years / Fresher)**
+
+### About Us
+
+DataActions is a venture-backed company headquartered in Singapore, building Decision Agents for Enterprises powered by Causal AI.
+
+#### What You'll Work On
+
+- Building agentic frontend features using React / Next.js
+- Turning ambiguous product ideas into clean UI
+- Working on reusable components & design systems
+- Collaborating closely with product, design & founders
+- Learning how real production frontend systems are built
+
+#### What We're Looking For
+
+- Problem-solving mindset as the defacto
+- Ability to explain your approach with trade-offs
+- Comfort with experimenting (vibe coding)
+- Strong fundamentals in JS / HTML / CSS
+- Expertise with React & Next.js (and willingness to learn fast)
+
+#### Compensation
+
+=> ₹6-8 LPA + ESOPs
+
+#### How to Apply
+
+**Mail** - thushar.ke@dataactions.ai / cc: adi@dataactions.ai
+
+- Share your GitHub with projects / with demos
+- Write a cover letter, why should we hire you?
+- No resume is needed
+
+#### How to get shortlisted faster:
+
+Work below problem statement, share your demo repo with a Loom video.
+
+---
+
 Welcome! 👋
 
 This repository contains the frontend hiring assignment for 0–1 year / fresher frontend engineers at DataActions.
 
 **This assignment is designed to evaluate how you think, not how fancy your UI is.**
-
-## 🌍 About DataActions
-
-DataActions is a venture-backed company headquartered in Singapore, building next-generation Decision Intelligence powered by ontology-driven modelling and Causal AI.
-
-As markets shift toward AI-native operations, competitive advantage no longer comes from static analytics — it comes from the ability to experiment, learn, and decide faster.
-
-DataActions enables that decision and experimentation velocity for supply chain and retail organizations, helping teams move from insight → action with confidence.
 
 ## 🎯 Purpose of This Assignment
 
@@ -52,6 +84,10 @@ Your app/component should:
   - List
   - Or any simple creative format
 - Update the view when inputs change
+
+## 🧪 Additional Tasks (Choose Any 1–2)
+
+These tasks are optional but strongly encouraged. Pick what interests you — we care more about quality of thinking than completing everything.
 
 ### 🔹 Task 1: Insight State Handling
 
@@ -94,10 +130,7 @@ Refactor your widget so it can be reused with different inputs.
 **Example:**
 
 ```jsx
-<InsightWidget
-  metric="Revenue"
-  timeRange={30}
-/>
+<InsightWidget metric="Revenue" timeRange={30} />
 ```
 
 **What we're evaluating:**
@@ -158,9 +191,9 @@ When we review your submission, we'll focus on:
 
 ## 🎥 Submission Instructions
 
-You can submit by doing the following:
+You can submit either one of the following:
 
-### GitHub Repository
+### Option 1: GitHub Repository
 
 - Push your code to a public GitHub repo
 - Include a short explanation in the README:
@@ -168,9 +201,9 @@ You can submit by doing the following:
   - Assumptions
   - Improvements you'd make
 
-### Loom Video
+### Option 2: Loom Video (Preferred)
 
-- 5 minutes max
+- 5–8 minutes max
 - Explain:
   - Your thought process
   - Code walkthrough
@@ -189,7 +222,7 @@ You can submit by doing the following:
 
 ## ⏳ Time Expectation
 
-**5–6 hours**
+**2–4 hours max**
 
 Please don't spend days on this.
 
@@ -201,4 +234,3 @@ Send us:
 - Loom video link
 
 via the application form or email shared with you.
-
